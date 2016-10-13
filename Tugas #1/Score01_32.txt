@@ -1,0 +1,11 @@
++10 tugas selesai minimal 5 lagu
++1 tambahan 1 lagu
++12 untuk 6 lirik ok
+-6 untuk 6 lagu tanpa gambar
++2 untuk gambar beckround index.html
++6 Untuk 6 halaman lagu yang backround seragam dengan index.html
++5 untuk 5 judul lagu yang link ke wikipedia
++2 klik ke facebook anda dati halaman index
+---+
+
+Total : 32
