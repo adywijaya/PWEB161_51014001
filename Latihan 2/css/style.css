@@ -1,0 +1,122 @@
+p
+{
+	width:900px;  
+	padding: 5px; 
+	border-radius: 25px;  
+	background: url(back1.jpg) no-repeat fixed top center; background-size: cover; 
+	
+	display: block; 
+	margin: 0px auto;
+	text-align: center;
+	font-size: 30px;
+}
+/*==========================================================================================================*/
+li
+{	
+	text-align: center;
+	font-size: 30px;
+	list-style:none
+}
+
+/*==========================================================================================================*/
+
+h2
+{
+	text-align: center;
+	font-size: 60px;
+}
+
+/*==========================================================================================================*/
+
+body 
+{
+	background:#FFFFCC url(back.jpg) no-repeat fixed top center; background-size: cover;
+}
+
+/*==========================================================================================================*/
+
+hr {
+  border: 0;
+}
+
+/*==========================================================================================================*/
+
+ img
+ {
+ 	width: 300px;
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*==========================================================================================================*/
+
+.title
+{	
+	width:1500px;  
+	padding: 5px;  
+	border-radius: 25px; 
+	background: url(back2.jpg) no-repeat fixed top center; background-size: cover; 
+	
+	margin: 0px auto;
+	text-align: center;
+	font-size: 70px;
+
+}
+
+/*==========================================================================================================*/
+
+.button
+{  	
+	width:900px; 
+	padding: 10px; 
+	border-radius: 25px; 
+	background: #ffffff; 
+	
+	border: 1px solid silver; 
+  
+	display: block; 
+	margin: 0px auto; 
+} 
+
+/*==========================================================================================================*/
+
+.button1
+{  	
+	width:200px; 
+	padding: 5px; 
+	border-radius: 25px; 
+	background: #ffffff;  
+  
+	display: block; 
+	margin: 0px auto; 
+} 
+
+/*==========================================================================================================*/
+
+.button2
+{  
+	width:1200px; 
+	padding: 5px; 
+	border-radius: 25px; 
+	background: url(back1.jpg) no-repeat fixed top center; background-size: cover;    
+  
+	display: block; 
+	margin: 0px auto; 
+} 
+
+/*==========================================================================================================*/
+.box
+{
+	width:1300px;  
+	padding: 20px; 
+	border-radius: 25px;  
+	background: url(back2.jpg) no-repeat fixed top center; background-size: cover; 
+	
+
+	display: block; 
+	margin: 0px auto;
+	text-align: center;
+	font-size: 30px;
+}
