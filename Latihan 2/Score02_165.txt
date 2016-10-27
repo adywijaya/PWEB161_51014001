@@ -1,0 +1,13 @@
+20/10/2016
++10 Tugas siap
++15 untuk 15 lagu tambahan setelah 5 lagu pertama
+-20 Untuk setiap penggunaan opsi widht
+-----+
++5
+
+27/10/2016
++10 untuk tugas yang dikerjakan
++30 Setiap selektor lebih dari 5 baris
++120 untuk setiap peninggalan class yang sama dalam HTML
+-----+
++160
