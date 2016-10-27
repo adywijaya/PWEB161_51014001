@@ -11,3 +11,5 @@
 +120 untuk setiap peninggalan class yang sama dalam HTML
 -----+
 +160
+
+jumlah score = 165
