@@ -67,6 +67,7 @@ h2
 	padding: 10px;
 	margin: 10px;
 	float: left;
+	border-top: 10px solid #0099ff;
 }
 
 /*==========================================================================================================<----------------------<*Layout tengah*/
@@ -79,6 +80,7 @@ h2
 	margin: 10px;
 	float: left;
 	text-align: center;
+	border-top: 10px solid #ff4d4d;
 }
 
 .middle img
@@ -98,6 +100,7 @@ h2
 	margin: 10px;
 	float: left;
 	text-align: center;
+	border-top: 10px solid #34cb34;
 }
 
 .right img
