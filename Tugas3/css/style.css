@@ -1,90 +1,159 @@
-
-.gambaratas
-{ 	
-  	margin: -30px; 
-    color: #000;
-    width: auto;
-	height: 400px;  
-	padding: 5px; 
-	background : url(back1.jpg) no-repeat; background-size: 100% auto;
-	position: relative;
-	margin-bottom: 10px;
-}
-/*==========================================================================================================<----------------------<Gambar Header>*/
-.judul
-{
-	margin: -40px;
-	text-align: center;
-	font-size: 60px;
-	font-family: "Century Gothic";
-}
-/*==========================================================================================================<----------------------<Tulisan Judul>*/
-.daftarlagu
-{
-	border-radius: 25px;
-	padding: 20px;
-	font-size: 20px;
-	left: 3%;
-	width: 400px;
-	margin-top: 20px;
-	position: relative;	
-	margin-top: 80px;
-	background-color: #ffad33;
-	list-style:none;
-	float: left;
-}
-
-/*==========================================================================================================<----------------------<daftar lagu 1-20>*/
+/*==========================================================================================================<----------------------<Menghilangkan Border garis bawah>*/
 hr
 {
 	border: 0px;
 }
-/*==========================================================================================================<----------------------<Menghilangkan Border>*/
-img
-{
-	width: 200px;
-}
-/*==========================================================================================================<----------------------<semua ukuran image>*/
-.lagu
-{
-	border-radius: 25px;
-	margin-top: 35px;
-	margin-left: 600px;
-	height: auto;
-	width: 500px;
-	position: relative;	
-	background-color: #ffb3cc;
-	text-align: center;
-	list-style:none;
-	padding: 5px; 
-}
-/*==========================================================================================================<----------------------<lirik lagu sampe 10*/
-.lagu2
-{
-	border-radius: 25px;
-	margin-top: -6560px;
-	margin-left: 1200px;
-	height: auto;
-	width: 500px;
-	position: relative;	
-	background-color:  #00ccff;
-	text-align: center;
-	list-style:none;
-	padding: 5px; 
-}
-/*==========================================================================================================<----------------------<lirik lagu 11-20*/
+
+/*==========================================================================================================<----------------------<Menghilangkan ul*/
 ul
 {
 	list-style: none;
 }
 
+/*==========================================================================================================<----------------------<Mengubah ukuran font>*/
 p
 {
 	font-size: 20px;
+	color: #fff;
 }
 
+/*==========================================================================================================<----------------------<Menambah backround>*/
 body
 {
-	background: url(back2.jpg) no-repeat fixed top center; background-size: cover;
+	background: url(back.jpg) no-repeat fixed top center; background-size: 100%;
 }
+
+/*==========================================================================================================<----------------------<*main*/
+h1
+{
+	font-size: 60px;
+	color: #fff;
+}
+/*==========================================================================================================<----------------------<*main*/
+h2
+{
+	color: #fff;
+}
+/*==========================================================================================================<----------------------<*main*/
+
+.container{
+	max-width: 1080px;
+	border:3px;
+	margin: 40px auto;
+	border-radius: 0px;
+	background:#fff;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.header
+{
+	border: 0px #000;
+	background:url(kid.jpg)no-repeat;
+	height: 400px;
+	background-size: cover;
+	padding:30px;
+	margin: 0px;
+
+	text-align: center;
+}
+
+/*==========================================================================================================<----------------------<*Layout kiri*/
+.left 
+{
+	width: 250px;
+	background: #66c2ff;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+/*==========================================================================================================<----------------------<*Layout tengah*/
+.middle
+{
+	width: 350px;
+	border-radius: 25px;
+	background: #ff9999;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	text-align: center;
+}
+
+.middle img
+{
+	max-width: 200px;
+	border-radius: 100%;
+	height: 200px;
+}
+
+/*==========================================================================================================<----------------------<*Layout kanan*/
+.right
+{
+	width: 350px;
+	background: #85e085;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	text-align: center;
+}
+
+.right img
+{
+	max-width: 200px;
+	height: 200px;
+	text-align: center;
+	border-radius: 100%;
+}
+
+/*==========================================================================================================<----------------------<*Untuk ukuran 1080px kebawah */
+@media screen and (max-width: 1080px){
+	
+	.container {
+		width: 100%;
+	}
+	.left {
+		width: 25%;
+		background: #fff000;
+	}
+	.middle {
+		width: 68%;
+		float: right;
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+
+/*==========================================================================================================<----------------------<*Untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px){
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}
+
+
 
