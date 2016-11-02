@@ -23,13 +23,13 @@ body
 	background: url(back.jpg) no-repeat fixed top center; background-size: 100%;
 }
 
-/*==========================================================================================================<----------------------<*main*/
+/*==========================================================================================================<----------------------<*h1*/
 h1
 {
 	font-size: 60px;
 	color: #fff;
 }
-/*==========================================================================================================<----------------------<*main*/
+/*==========================================================================================================<----------------------<*h2*/
 h2
 {
 	color: #fff;
@@ -48,25 +48,29 @@ h2
 
 .header
 {
-	border: 0px #000;
 	background:url(kid.jpg)no-repeat;
 	height: 400px;
 	background-size: cover;
 	padding:30px;
 	margin: 0px;
-
 	text-align: center;
+}
+
+.left,
+.middle,
+.right
+{
+	border-radius: 25px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
 }
 
 /*==========================================================================================================<----------------------<*Layout kiri*/
 .left 
 {
 	width: 250px;
-	background: #66c2ff;
-	border-radius: 25px;
-	padding: 10px;
-	margin: 10px;
-	float: left;
+	background: #66c2ff;	
 	border-top: 10px solid #0099ff;
 }
 
@@ -74,61 +78,37 @@ h2
 .middle
 {
 	width: 350px;
-	border-radius: 25px;
 	background: #ff9999;
-	padding: 10px;
-	margin: 10px;
-	float: left;
 	text-align: center;
 	border-top: 10px solid #ff4d4d;
 }
 
-.middle img
-{
-	max-width: 200px;
-	border-radius: 100%;
-	height: 200px;
-}
 
 /*==========================================================================================================<----------------------<*Layout kanan*/
 .right
 {
 	width: 350px;
 	background: #85e085;
-	border-radius: 25px;
-	padding: 10px;
-	margin: 10px;
-	float: left;
 	text-align: center;
 	border-top: 10px solid #34cb34;
 }
 
-.right img
+/*==========================================================================================================<----------------------<*setting gambar tengah dan kanan */
+.right img,
+.middle img
 {
 	max-width: 200px;
 	height: 200px;
-	text-align: center;
 	border-radius: 100%;
 }
 
 /*==========================================================================================================<----------------------<*Untuk ukuran 1080px kebawah */
 @media screen and (max-width: 1080px){
-	
-	.container {
-		width: 100%;
-	}
-	.left {
-		width: 25%;
-		background: #fff000;
-	}
-	.middle {
-		width: 68%;
-		float: right;
-	}
-	
+
+	.container 
+	.left,
+	.middle,
 	.right {
-		clear: both;
-		padding: 1% 4%;
 		width: auto;
 		float: none;
 	}
@@ -137,20 +117,13 @@ h2
 /*==========================================================================================================<----------------------<*Untuk ukuran layar 700px kebawah */
 @media screen and (max-width: 780px){
 	
-	.header, 
-	.footer{
+	
+	.header
+	{
 		text-align: center;
 	}
-	.left {
-		width: auto;
-		float: none;
-	}
-	
-	.middle {
-		width: auto;
-		float: none;
-	}
-	
+	.left,
+	.middle,
 	.right {
 		width: auto;
 		float: none;
