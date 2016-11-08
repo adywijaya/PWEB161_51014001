@@ -1,16 +1,49 @@
-img
-{
-	border: 3px;
-	border-radius: 15px;
-	border-top-style: solid;
-	border-left-style: solid;
-	border-bottom-style: solid;
-	border-right-style: solid;
-}
 
 body
 {
 	background: url(../img/back.jpg) no-repeat fixed top center; background-size: cover;
 }
 
+p
+{
+	text-align: center;
+}
+
+img
+{
+	border-radius: 15px;
+}
+
+.imgleft
+{
+	border: 1px #ffcccc;
+	border-radius: 20px;
+	border-top-style: solid;
+	border-top: 15px solid #ffcccc;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+}
+
+.imgmid
+{
+	border: 1px #ffcccc;
+	border-radius: 20px;
+	border-top-style: solid;
+	border-top: 15px solid #b3b3ff;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+}
+
+.imgright
+{
+	border: 1px #ffcccc;
+	border-radius: 20px;
+	border-top-style: solid;
+	border-top: 15px solid #b3ffb3;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+}
 
