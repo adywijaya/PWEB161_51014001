@@ -1,0 +1,8 @@
+Theme : Freelancer (https://startbootstrap/template-overviews/freelancer/)
+
++10 untuk tugas yang di commit terakhir selambatnya tanggal 9/99/16 23:59:59 
++6 untuk setiap commit setelah commit pertama sebelum tanggal 9/11/16 23:59:59
++9 untuk setiap class yang dibuat sendiri (nama baru, bukan override)
++2 untuk setiap glypicon atau font awesome baru yang tidak ada theme asli
+---+
+27
