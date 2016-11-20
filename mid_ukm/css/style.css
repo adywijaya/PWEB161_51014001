@@ -18,3 +18,22 @@
   width: auto;
   font-size: 18px;
 }
+
+.center
+{
+	text-align: center;
+}
+
+.text
+{
+	font-size: 16px;
+}
+
+.carousel {
+  height: 750px;
+  margin-bottom: 60px;
+}
+
+.carousel .item {
+  height: 750px;
+  background-color: #777;
