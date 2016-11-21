@@ -46,24 +46,51 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-            
+            <a class="navbar-brand" href="#">UKM Bulu Tangkis</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">Home </a></li>
-                <li><a href="info.html">Artikel</a></li>
-                <li><a href="#struktur">Struktur organisasi</a></li>
-                <li><a href="#jadwal">Jadwal</a></li>
-                <li><a href="#visi">Visi & Misi</a></li>
-                <li><a href="pendaftaran.html">Pendaftaran Anggota</a></li>
-                <li><a href="formulir.html">Formulir</a></li>
+                <li class="active"><a href="index.html">Home </a></li>
+                
 
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >Informasi UKM <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#"></a></li>
+                    <li><a href="index.html#struktur">Struktur Organisasi</a></li>
+                    <li><a href="index.html#jadwal">Jadwal</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="index.html#visi">Visi & Misi</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="info.html">Artikel</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formulir <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"></a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran Anggota</a></li>
+                  <li><a href="formulir.html">Formulir Lomba</a></li>
+                 </ul>
+                </li>
               </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          
+          </ul>
             </div>
           </div>
         </nav>
-      </div>
-    </div>
+        </div>
+        </div>
+      
+    
 
 
     <!-- Carousel
@@ -178,8 +205,8 @@
           <p><a class="btn btn-lg btn-primary" href="#" role="button">Home</a></p>
         </div>
         <div class="col-md-5">
-        <br> <br> <br> <br> <br> <br>
-        <br> <br> <br>
+        <br> 
+    
         <br>
           <img class="featurette-image img-responsive center-block" src="img/map.PNG" alt="Generic placeholder image">
         <br> <br>
@@ -193,12 +220,20 @@
       <hr class="featurette-divider">
       <div class="row featurette">
        <a href="#" name="visi"></a>
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-12">
+          <center><h2 class="featurette-heading">Visi dan Misi<span class="text-muted"><br>UKM Bulu Tangkis</span></h2>
+         <h2 class="featurette-heading">Visi<span class="text-muted"></span></h2>
+          <p class="lead">Menjadi UKM yang mampu mewadahi dan mengembangkan minat, bakat dan kemampuan khusus mahasiswa di bidang bulutangkis dalam rangka mewujudkan mahasiswa yang sehat jasmani dan rohani sehingga mampu berprestasi baik di bidang akademik (pada umumnya) dan di bidang bulutangkis (khususnya) untuk diri pribadi, institusi, bangsa dan negara.</p>
+
+          <center><h2 class="featurette-heading">Misi<span class="text-muted"></span></h2>
+          <center><h2 ><span class="text-muted">I</span></h2>
+          <p class="lead">Sebagai UKM yang mampu membawa dan menjaga nama baik STIMK Kharisma di lingkup nasional atau bahkan internasional.</p>
+          <center><h2 ><span class="text-muted">II</span></h2>
+          <p class="lead">Sebagai wadah pembinaan dan pelatihan yang baik dalam hal bulutangkis dan segala aspeknya bagi mahasiswa STIMK Kharisma.</p>
+          <center><h2 ><span class="text-muted">III</span></h2>
+          <p class="lead">Menyelenggarakan atau mengikuti berbagai kegiatan yang konstruktif (ke dalam dan ke luar) yang bersifat “kompetitif”.</p>
+        </div></center>
+       
         </div>
       </div>
 
@@ -210,6 +245,8 @@
 
 
       <!-- FOOTER -->
+        <div class="col-md-9 col-md-push-1">
+
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>

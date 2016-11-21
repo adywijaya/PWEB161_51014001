@@ -1,17 +1,17 @@
 
 .navbar-wrapper .navbar {
-  padding-right: 71px;
-  padding-left: 71px;
-  background: #333333;
-  border-radius: 10px;
-  width: 1000px;
+  padding-right: 7px;
+  padding-left: 7px;
+  background: #0d0d0d;
+  border-radius: 5px;
+
 }
 
 .navbar-wrapper .container {
   height: 10px;
-  background: #333333;
-  border-radius: 10px;
-  width: 1000px;
+  background: #0d0d0d;
+  border-radius: 5px;
+  
 }
 
 .navbar-wrapper .navbar .container {
@@ -37,3 +37,15 @@
 .carousel .item {
   height: 750px;
   background-color: #777;
+}
+
+.carousel-inner
+{
+  color: #000;
+}
+
+a
+{
+  font-size: 18px;
+}
+
