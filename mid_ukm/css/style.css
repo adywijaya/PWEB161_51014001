@@ -2,7 +2,7 @@
 .navbar-wrapper .navbar {
   padding-right: 7px;
   padding-left: 7px;
-  background: #0d0d0d;
+  
   border-radius: 5px;
 
 }
@@ -11,7 +11,7 @@
 
 .navbar-wrapper .container {
   height: 10px;
-  background: #0d0d0d;
+ 
   border-radius: 5px;
   
 }
